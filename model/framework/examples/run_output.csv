@@ -1,0 +1,4 @@
+consensus_score,merged_mic_decoys_d,merged_mic_decoys_c,merged_iz_decoys_b,merged_mic_decoys_b,merged_mic_decoys_a,merged_iz_decoys_a,merged_mic,general_mic,general_iz,general_activity_decoys,general_mic90,general_ic50,general_mic50
+0.5214,0.383,0.3292,0.6511,0.3961,0.4542,0.8654,0.3765,0.1388,0.9435,0.3218,0.6101,0.5845,0.5712
+0.496,0.3138,0.3631,0.5757,0.3355,0.4939,0.6966,0.4476,0.413,0.7642,0.3356,0.5875,0.6159,0.5592
+0.4797,0.3252,0.535,0.2859,0.5069,0.3718,0.6399,0.3714,0.8392,0.3169,0.3558,0.6061,0.5951,0.5438
