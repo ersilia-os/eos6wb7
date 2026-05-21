@@ -1,9 +1,14 @@
 Identifier: eos6wb7
 Slug: antimicrobial-activity-kpneumoniae
 Status: In progress
-Title: Antimicrobial activity prediction against Klebsiella pneumoniae from public ChEMBL data
-Description: >
-  Bioactivity prediction of growth inhibition in Klebsiella pneumoniae, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
+Title: Antimicrobial activity prediction against Klebsiella pneumoniae from 
+  public ChEMBL data
+Description: Bioactivity prediction of growth inhibition in Klebsiella 
+  pneumoniae, trained as binary (active/inactive) classifiers from publicly 
+  available data in ChEMBL. Independent models are trained on multiple 
+  bioactivity datasets, corresponding to single-point (percent inhibition) and 
+  dose-response (MIC) assays, among others. A ranking score is provided for each
+  model alongside a combined consensus score.
 Deployment:
   - Local
   - Online
@@ -18,7 +23,9 @@ Output:
   - Score
 Output Dimension: 14
 Output Consistency: Fixed
-Interpretation: Probability of antimicrobial activity against Klebsiella pneumoniae from 13 ChEMBL-trained sub-models, plus a quality-weighted consensus score.
+Interpretation: Probability of antimicrobial activity against Klebsiella 
+  pneumoniae from 13 ChEMBL-trained sub-models, plus a quality-weighted 
+  consensus score.
 Tag:
   - Gram-negative bacteria
   - ESKAPE
@@ -35,3 +42,4 @@ Publication: https://github.com/ersilia-os/chembl-antimicrobial-models
 Source Code: https://github.com/ersilia-os/chembl-antimicrobial-models
 License: GPL-3.0-or-later
 Contributor: arnaucoma24
+Incorporation Date: '2026-05-19'
