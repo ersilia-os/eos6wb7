@@ -1,4 +1,4 @@
-consensus_score,merged_mic_decoys_d,merged_mic_decoys_c,merged_iz_decoys_b,merged_mic_decoys_b,merged_mic_decoys_a,merged_iz_decoys_a,merged_mic,general_mic,general_iz,general_activity_decoys,general_mic90,general_ic50,general_mic50
-0.5214,0.383,0.3292,0.6511,0.3961,0.4542,0.8654,0.3765,0.1388,0.9435,0.3218,0.6101,0.5845,0.5712
-0.496,0.3138,0.3631,0.5757,0.3355,0.4939,0.6966,0.4476,0.413,0.7642,0.3356,0.5875,0.6159,0.5592
-0.4797,0.3252,0.535,0.2859,0.5069,0.3718,0.6399,0.3714,0.8392,0.3169,0.3558,0.6061,0.5951,0.5438
+consensus_score,general_single_point,general_dose_response,general_activity_decoys,general_mic50,general_ic50,general_mic90,general_iz,general_mic,merged_iz_decoys_a,merged_mic_decoys_a,merged_iz_decoys_b,merged_mic_decoys_b,merged_mic_decoys_c,merged_mic,merged_mic_decoys_d
+0.4592,0.6529,0.1497,0.287,0.5712,0.5845,0.5595,0.9505,0.1577,0.8347,0.4086,0.5708,0.3397,0.333,0.3864,0.4369
+0.4573,0.4518,0.4018,0.3292,0.5592,0.6159,0.5943,0.7771,0.4106,0.5585,0.3976,0.6277,0.4034,0.3824,0.4229,0.3108
+0.5087,0.624,0.8357,0.3234,0.5438,0.5951,0.5747,0.2667,0.8334,0.5645,0.3402,0.3541,0.3575,0.4557,0.3781,0.299

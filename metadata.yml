@@ -11,7 +11,6 @@ Description: Bioactivity prediction of growth inhibition in Klebsiella
   model alongside a combined consensus score.
 Deployment:
   - Local
-  - Online
 Source: Local
 Source Type: Internal
 Task: Annotation
@@ -21,10 +20,10 @@ Input:
 Input Dimension: 1
 Output:
   - Score
-Output Dimension: 14
+Output Dimension: 16
 Output Consistency: Fixed
 Interpretation: Probability of antimicrobial activity against Klebsiella 
-  pneumoniae from 13 ChEMBL-trained sub-models, plus a quality-weighted 
+  pneumoniae from 15 ChEMBL-trained sub-models, plus a quality-weighted 
   consensus score.
 Tag:
   - Gram-negative bacteria
