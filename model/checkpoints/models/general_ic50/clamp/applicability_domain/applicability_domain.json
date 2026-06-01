@@ -2,7 +2,7 @@
   "n_components": 27,
   "n_features_in": 768,
   "n_cal_knots": 200,
-  "cal_min": 3.074848175048828,
-  "cal_max": 11.285760879516602,
+  "cal_min": 3.075103521347046,
+  "cal_max": 11.288816452026367,
   "scaler": "standard"
 }

@@ -20,11 +20,9 @@ Input:
 Input Dimension: 1
 Output:
   - Score
-Output Dimension: 16
+Output Dimension: 17
 Output Consistency: Fixed
-Interpretation: Probability of antimicrobial activity against Klebsiella 
-  pneumoniae from 15 ChEMBL-trained sub-models, plus a quality-weighted 
-  consensus score.
+Interpretation: Probability of antimicrobial activity against Klebsiella pneumoniae from 16 ChEMBL-trained sub-models, plus a quality-weighted consensus score.
 Tag:
   - Gram-negative bacteria
   - ESKAPE
