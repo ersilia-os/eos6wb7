@@ -2,7 +2,7 @@
 
 Bioactivity prediction of growth inhibition in Klebsiella pneumoniae, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
-This model was incorporated on 2026-05-19.Last packaged on 2026-05-25.
+This model was incorporated on 2026-05-19.Last packaged on 2026-06-01.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 17 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `180`
 - **Environment Size (Mb):** `1889`
-- **Image Size (Mb):** `2246.28`
+- **Image Size (Mb):** `2261.35`
 
 **Computational Performance (seconds):**
-- 10 inputs: `42.86`
-- 100 inputs: `35.81`
-- 10000 inputs: `750.34`
+- 10 inputs: `44.76`
+- 100 inputs: `39.29`
+- 10000 inputs: `990.2`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/chembl-antimicrobial-models](https://github.com/ersilia-os/chembl-antimicrobial-models)
