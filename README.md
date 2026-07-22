@@ -1,6 +1,6 @@
 # Antimicrobial activity prediction against Klebsiella pneumoniae from public ChEMBL data
 
-Bioactivity prediction of growth inhibition in Klebsiella pneumoniae, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
+Bioactivity prediction of growth inhibition in Klebsiella pneumoniae, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
 This model was incorporated on 2026-05-19.Last packaged on 2026-06-02.
 
@@ -21,25 +21,25 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-06-02.
 - **Input Dimension:** `1`
 
 ### Output
-- **Output Dimension:** `17`
+- **Output Dimension:** `11`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of antimicrobial activity against Klebsiella pneumoniae from 16 ChEMBL-trained sub-models, plus a quality-weighted consensus score.
+- **Interpretation:** Probability of antimicrobial activity against Klebsiella pneumoniae from 10 ChEMBL-trained sub-models, plus a quality-weighted consensus score.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| consensus_score | float | high | Tanh-transformed quality-weighted consensus probability across the 16 sub-models. Recommended threshold: 0.893. |
-| individual_inhibition | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4296186 (inhibition %; cutoff 25%; n=5246). Recommended threshold: 0.624. |
-| merged_mic_decoys_d | float | high | Probability from sub-model trained on MIC measurements merged across 11 ChEMBL assays (cutoff 10 uM; n=2830 incl. decoys). Recommended threshold: 0.896. |
-| merged_mic_decoys_c | float | high | Probability from sub-model trained on MIC measurements merged across 4 ChEMBL assays (cutoff 10 uM; n=1140 incl. decoys). Recommended threshold: 0.884. |
-| merged_iz_decoys_b | float | high | Probability from sub-model trained on IZ measurements merged across 6 ChEMBL assays (cutoff 10 mm; n=1130 incl. decoys). Recommended threshold: 0.904. |
-| merged_mic_decoys_b | float | high | Probability from sub-model trained on MIC measurements merged across 7 ChEMBL assays (cutoff 10 uM; n=900 incl. decoys). Recommended threshold: 0.858. |
-| merged_mic_decoys_a | float | high | Probability from sub-model trained on MIC measurements merged across 7 ChEMBL assays (cutoff 20 uM; n=590 incl. decoys). Recommended threshold: 0.882. |
-| merged_iz_decoys_a | float | high | Probability from sub-model trained on IZ measurements merged across 10 ChEMBL assays (cutoff 20 mm; n=530 incl. decoys). Recommended threshold: 0.878. |
-| merged_mic | float | high | Probability from sub-model trained on MIC measurements merged across 7 ChEMBL assays (cutoff 10 uM; n=266). Recommended threshold: 0.482. |
-| general_dose_response | float | high | Probability from sub-model trained on dose-response measurements aggregated across 6 ChEMBL assays (n=17091). Recommended threshold: 0.669. |
+| consensus_score | float | high | Tanh-transformed quality-weighted consensus probability across the 10 sub-models. Recommended threshold: 0.837. |
+| chembl_single_point_0 | float | high | Probability from sub-model trained on ChEMBL single-point signal-based pool of 108 assays (1274 compounds). Recommended threshold: 0.878. |
+| chembl_single_point_1 | float | high | Probability from sub-model trained on ChEMBL single-point signal-based pool of 39 assays (499 compounds). Recommended threshold: 0.658. |
+| chembl_single_point_2 | float | high | Probability from sub-model trained on ChEMBL single-point signal-based pool of 43 assays (474 compounds). Recommended threshold: 0.621. |
+| chembl_single_point_3 | float | high | Probability from sub-model trained on ChEMBL single-point signal-based pool of 34 assays (329 compounds). Recommended threshold: 0.558. |
+| chembl_single_point_4 | float | high | Probability from sub-model trained on ChEMBL single-point signal-based pool of 22 assays (192 compounds). Recommended threshold: 0.524. |
+| chembl_dose_response_0 | float | high | Probability from sub-model trained on ChEMBL dose-response signal-based pool of 526 assays (6242 compounds). Recommended threshold: 0.72. |
+| chembl_dose_response_1 | float | high | Probability from sub-model trained on ChEMBL dose-response signal-based pool of 363 assays (3322 compounds). Recommended threshold: 0.818. |
+| chembl_dose_response_2 | float | high | Probability from sub-model trained on ChEMBL dose-response signal-based pool of 160 assays (2377 compounds). Recommended threshold: 0.73. |
+| chembl_dose_response_3 | float | high | Probability from sub-model trained on ChEMBL dose-response signal-based pool of 129 assays (1379 compounds). Recommended threshold: 0.622. |
 
-_10 of 17 columns are shown_
+_10 of 11 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
