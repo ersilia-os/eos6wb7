@@ -1,6 +1,6 @@
 # Antimicrobial activity prediction against Klebsiella pneumoniae from public ChEMBL data
 
-Bioactivity prediction of growth inhibition in Klebsiella pneumoniae, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
+Assesses whether a compound inhibits Klebsiella pneumoniae, a Gram-negative pathogen in which carbapenem resistance has spread widely and treatment options are correspondingly narrow. Ten classifiers were trained over separate ChEMBL bioactivity pools, with single-point and dose-response assays modelled apart, and combined through a quality-weighted consensus. The thick capsule characteristic of this organism contributes to intrinsic resistance that structure-based prediction cannot capture.
 
 This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 ### Output
 - **Output Dimension:** `11`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of antimicrobial activity against Klebsiella pneumoniae from 10 ChEMBL-trained sub-models, plus a quality-weighted consensus score.
+- **Interpretation:** Probability of Klebsiella pneumoniae growth inhibition across ten sub-models, plus a weighted consensus.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
