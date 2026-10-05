@@ -1,12 +1,12 @@
 name,type,direction,description
-consensus_score,float,high,Tanh-transformed quality-weighted consensus probability across the 10 sub-models. Recommended threshold: 0.837.
-chembl_single_point_0,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 108 assays (1274 compounds). Recommended threshold: 0.878.
-chembl_single_point_1,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 39 assays (499 compounds). Recommended threshold: 0.658.
-chembl_single_point_2,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 43 assays (474 compounds). Recommended threshold: 0.621.
-chembl_single_point_3,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 34 assays (329 compounds). Recommended threshold: 0.558.
-chembl_single_point_4,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 22 assays (192 compounds). Recommended threshold: 0.524.
-chembl_dose_response_0,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 526 assays (6242 compounds). Recommended threshold: 0.72.
-chembl_dose_response_1,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 363 assays (3322 compounds). Recommended threshold: 0.818.
-chembl_dose_response_2,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 160 assays (2377 compounds). Recommended threshold: 0.73.
-chembl_dose_response_3,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 129 assays (1379 compounds). Recommended threshold: 0.622.
-chembl_dose_response_4,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 63 assays (538 compounds). Recommended threshold: 0.582.
+consensus_score,float,high,Quality-weighted consensus across the 10 sub-models on the same rank scale as the sub-models. Calibrated against a reference library of 50K drug-like molecules so that a score of 0.65 is better than 99% of them. Recommended threshold: 0.65.
+chembl_single_point_0,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 108 assays (1274 compounds). Recommended threshold: 0.65.
+chembl_single_point_1,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 39 assays (499 compounds). Recommended threshold: 0.65.
+chembl_single_point_2,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 43 assays (474 compounds). Recommended threshold: 0.65.
+chembl_single_point_3,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 34 assays (329 compounds). Recommended threshold: 0.65.
+chembl_single_point_4,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 22 assays (192 compounds). Recommended threshold: 0.65.
+chembl_dose_response_0,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 526 assays (6242 compounds). Recommended threshold: 0.65.
+chembl_dose_response_1,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 363 assays (3322 compounds). Recommended threshold: 0.65.
+chembl_dose_response_2,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 160 assays (2377 compounds). Recommended threshold: 0.65.
+chembl_dose_response_3,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 129 assays (1379 compounds). Recommended threshold: 0.65.
+chembl_dose_response_4,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 63 assays (538 compounds). Recommended threshold: 0.65.

@@ -16,7 +16,7 @@
     "max_bin": 256,
     "n_estimators": 2000,
     "early_stopping_rounds": 50,
-    "nthread": 64,
+    "nthread": 56,
     "objective": "binary:logistic",
     "scale_pos_weight": 3.6066,
     "eval_metric": "auc"
@@ -28,7 +28,7 @@
     "sparsity": 0.9614459552180605,
     "is_sparse_counts": false,
     "binary_feature_fraction": 0.3084626940410616,
-    "feature_signal_strength": 0.05846802345366725,
+    "feature_signal_strength": 0.05846802344936876,
     "feature_signal_p90": 0.12252147633381856,
     "task": "classification",
     "imbalance_ratio": 3.606589147286822,
@@ -44,7 +44,7 @@
   "decision_cutoff_raw": 0.18701031804084778,
   "decision_cutoff_raw_source": "oof_balanced_accuracy",
   "decision_cutoff_proba": 0.26562500000000006,
-  "decision_cutoff_rank": 0.7007575757575757,
+  "decision_cutoff_rank": 0.7006731173748423,
   "decision_cutoff_logit": -1.0169342576538423,
   "calibrator": {
     "method": "isotonic",
