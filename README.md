@@ -2,7 +2,8 @@
 
 Bioactivity prediction of growth inhibition in Klebsiella pneumoniae, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
-This model was incorporated on 2026-05-19.Last packaged on 2026-10-05.
+This model was incorporated on 2026-05-19.
+Last packaged on 2026-10-05.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 11 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos6wb7](https://hub.docker.com/r/ersiliaos/eos6wb7)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6wb7.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6wb7.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos6wb7_v4.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos6wb7_v4.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `169`
