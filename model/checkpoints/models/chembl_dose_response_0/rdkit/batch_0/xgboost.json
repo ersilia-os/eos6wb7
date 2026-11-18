@@ -28,7 +28,7 @@
     "sparsity": 0.40844673338736326,
     "is_sparse_counts": false,
     "binary_feature_fraction": 0.049019607843137254,
-    "feature_signal_strength": 0.1454110623430875,
+    "feature_signal_strength": 0.14541106232210427,
     "feature_signal_p90": 0.31057013373023246,
     "task": "classification",
     "imbalance_ratio": 2.8317986494782077,
